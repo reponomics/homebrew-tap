@@ -1,18 +1,9 @@
-# Reponomics Tap
+# Reponomics Homebrew tap
 
-## How do I install these formulae?
+Homebrew formulae maintained by Reponomics.
 
-`brew install reponomics/tap/<formula>`
+Treestamp is being prepared for this tap. Installation instructions will be added when its formula is published.
 
-Or `brew tap reponomics/tap` and then `brew install <formula>`.
+## Maintenance
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "reponomics/tap"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Formula changes are reviewed in pull requests and tested by source installation on macOS and Linux. GitHub Actions dependencies are pinned to full commit SHAs. Automatic formula updates and bottle publication are not enabled.
